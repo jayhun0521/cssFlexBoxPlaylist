@@ -7,18 +7,102 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
+     <link rel="stylesheet" href="./style.css">   
+      <title>Hello, World</title>
+    </head>
   <body>
-    <div class="container" style="background: skyblue;">
-      <h1>Fixed container</h1>
-    </div>
-    
-    <div class="container-fluid" style="background: red;">
-        <h1>Fluid container</h1>
-      </div>
 
+    <nav class="navbar navbar-expand-sm bg-info navbar-inverse">
+      <div class="container">
+        <button class="navbar-toggler bg-light" data-toggle="collapse" data-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link text-white active">Home</a>
+            <a href="#" class="nav-item nav-link text-white">About</a>
+            <a href="#" class="nav-item nav-link text-white">Services</a>
+            <a href="#" class="nav-item nav-link text-white">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+        <div class="jumbotron jumbotron-fluid bg-info text-white">
+            <div class="container text-center">
+              <h1 class="display-1">Humble Pie</h1>
+               <p class="lead">With a side of solitude</p>
+
+            </div>
+        </div>
+        <div class="container text-muted">
+          <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="./mary-brennan-3T5p4D-RCqo-unsplash.jpg" alt="" class="card-img-top img-fluid" style="height: 200px;">
+              <div class="card-body">
+                <h3 class="card-title">Hobknob</h3>
+                <p>I want to hobknob at a lake</p>
+              </div>
+              </div>
+            </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="./brayden-prato-otM4OH0jZjo-unsplash.jpg" alt="" class="card-img-top img-fluid" style="height: 200px;">
+            <div class="card-body">
+              <h3 class="card-title">Hobknob</h3>
+              <p>I want to hobknob in a waterfall</p>
+              </div>
+            </div>
+            </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="./eric-muhr-9h9zi3Xc1y0-unsplash.jpg" alt="" class="card-img-top img-fluid" style="height: 200px;">
+            <div class="card-body">
+              <h3 class="card-title">Hobknob</h3>
+              <p>I want to hobknob in a river valley</p>
+              </div>
+            </div>
+            </div>
+          <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="./job-savelsberg-zQCAh_P9gL8-unsplash.jpg" alt="" class="card-img-top img-fluid" style="height: 200px;">
+            <div class="card-body">
+              <h3 class="card-title">Hobknob</h3>
+              <p>I want to hobknob on a glacier</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <h2 class="display-4 text-center py-4 my-4">Get Lost, Wander, Be Found</h2>
+          <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+            <a href="#Trees" class="nav-link active" data-toggle="tab">Trees</a>
+            <a href="#Flowers" class="nav-link" data-toggle="tab">Flowers</a>
+            <a href="#Foothills" class="nav-link" data-toggle="tab">Foothills</a>
+            <a href="#Mountains" class="nav-link" data-toggle="tab">Mountains</a>
+          </nav>
+
+          <div class="tab-content py-5">
+            <div class="tab-pane active" id="Trees">
+              <h3>Trees</h3>
+              <p>Come hug me</p>
+            </div>
+            <div class="tab-pane" id="Flowers">
+            <h3>Flowers</h3>
+              <p>Come smell me</p>
+            </div>
+            <div class="tab-pane" id="Foothills">
+              <h3>Foothills</h3>
+              <p>Come walk me</p>
+            </div>
+            <div class="tab-pane" id="Mountains">
+              <h3>Mountains</h3>
+              <p>Come climb me</p>
+            </div>
+          </div>
+
+        </div>
+         </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
